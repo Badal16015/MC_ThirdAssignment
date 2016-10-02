@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Add Details"
+            android:id="@+id/adetails"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:gravity="center"
+            android:clickable="true"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#d1bfbf"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Update Details"
+            android:id="@+id/udetails"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:gravity="center"
+            android:clickable="true"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#d1bfbf"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Display Students"
+            android:id="@+id/dispstudents"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:gravity="center"
+            android:clickable="true"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#d1bfbf"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Delete Details"
+            android:id="@+id/ddetails"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:gravity="center"
+            android:clickable="true"/>
+    </LinearLayout>
+
+</LinearLayout>
